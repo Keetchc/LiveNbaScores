@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/LiveNbaScores/static/css/main.79f4bb62.chunk.css",
+    "main.js": "/LiveNbaScores/static/js/main.0de9f184.chunk.js",
+    "main.js.map": "/LiveNbaScores/static/js/main.0de9f184.chunk.js.map",
+    "runtime-main.js": "/LiveNbaScores/static/js/runtime-main.1c56b060.js",
+    "runtime-main.js.map": "/LiveNbaScores/static/js/runtime-main.1c56b060.js.map",
+    "static/css/2.1a7e3916.chunk.css": "/LiveNbaScores/static/css/2.1a7e3916.chunk.css",
+    "static/js/2.1d85a3a5.chunk.js": "/LiveNbaScores/static/js/2.1d85a3a5.chunk.js",
+    "static/js/2.1d85a3a5.chunk.js.map": "/LiveNbaScores/static/js/2.1d85a3a5.chunk.js.map",
+    "index.html": "/LiveNbaScores/index.html",
+    "precache-manifest.5723b41b4e99f89596925eea4c61f198.js": "/LiveNbaScores/precache-manifest.5723b41b4e99f89596925eea4c61f198.js",
+    "service-worker.js": "/LiveNbaScores/service-worker.js",
+    "static/css/2.1a7e3916.chunk.css.map": "/LiveNbaScores/static/css/2.1a7e3916.chunk.css.map",
+    "static/css/main.79f4bb62.chunk.css.map": "/LiveNbaScores/static/css/main.79f4bb62.chunk.css.map",
+    "static/js/2.1d85a3a5.chunk.js.LICENSE.txt": "/LiveNbaScores/static/js/2.1d85a3a5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c56b060.js",
+    "static/css/2.1a7e3916.chunk.css",
+    "static/js/2.1d85a3a5.chunk.js",
+    "static/css/main.79f4bb62.chunk.css",
+    "static/js/main.0de9f184.chunk.js"
+  ]
+}
