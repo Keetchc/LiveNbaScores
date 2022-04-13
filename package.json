@@ -1,6 +1,5 @@
 {
   "name": "live-nba-scores",
-  "homepage": "http://keetchc.github.io/LiveNbaScores",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
