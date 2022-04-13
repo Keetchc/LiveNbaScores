@@ -1,0 +1,180 @@
+body {
+  height: 100vh;
+}
+
+.bodyBackground {
+  min-height: 100vh;
+  background-color: #546ca4;
+}
+.App {
+  text-align: center;
+}
+
+.ml-6 {
+  margin-left: 15rem !important;
+}
+
+.mr-6 {
+  margin-right: 15rem !important;
+}
+
+p {
+  color: white;
+}
+
+.cardBackground {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #04347c;
+}
+
+.gameList {
+  display: flex;
+}
+
+.gameListSection {
+  background-color: #546ca4;
+}
+
+
+.subtitle {
+  margin-bottom: 1rem;
+}
+
+.form {
+  padding: 1em;
+
+}
+
+input[type="text"] {
+  text-align: center;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: auto;
+  background-color: #c8102e;
+  box-shadow: 0px 8px 15px #04347c;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+}
+
+.search-form {
+  display: inline;
+  border-right: 1px solid;
+}
+.card {
+  display: inline;
+  border-right: 1px solid;
+}
+
+.cardDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 25%;
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  max-width: 120px;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: .5em;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0px 15px 20px #04347c;
+  transform: translateY(-5px);
+}
+
+.cardHover {
+  box-shadow: 0px 8px 15px #04347c;
+}
+
+.cardHover:hover {
+  box-shadow: 0px 15px 20px #04347c;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+@media (max-width: 808px) {
+    body {
+      height: 100vh;
+      width: 100vw;
+    }
+    
+    .bodyBackground {
+      background-color: #546ca4;
+    }
+    .App {
+      text-align: center;
+    }
+    
+    p {
+      color: white;
+    }
+    
+    .cardBackground {
+      padding: 1rem;
+      background-color: #04347c;
+    }
+    
+    .subtitle {
+      margin-bottom: 1rem;
+      font-size: 1px;
+    }
+    
+    .form {
+      padding: 1em;
+    
+    }
+    
+    input[type="text"] {
+      text-align: center;
+    }
+    
+    input[type="submit"] {
+      display: block;
+      margin: auto;
+      background-color: #c8102e;
+      border: none;
+      color: white;
+      padding: 10px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      font-size: 16px;
+    }
+    
+    .search-form {
+      display: inline;
+      border-right: 1px solid;
+    }
+    .card {
+      display: inline;
+      border-right: 1px solid;
+    }
+    
+    .center {
+      text-align: center;
+    }
+    
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100px;
+      padding: auto;
+    }
+  }
