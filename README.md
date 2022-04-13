@@ -1,5 +1,7 @@
 Project Guide
 
+Hosted at: https://nba.cjk17.com/
+
 This project was extremely satisfying to imagine and build and uses HTML, CSS, Bootstrap, React, and an API. Though I was not able to create EXACTLY what I had in mind at the beginning, I was still able to create something I was proud of. Originally I wanted to create a sports app similar to ESPN or theScore, but I quickly realized that this was going to be almost impossible given the time that I had. I changed the scope to just giving simple stats for games (score, score by quarter, time remaining, etc.), and started building this tool. I quickly realized that the API I had chosen was not going to work and had to change scope again. At this time I found the Ball Don't Lie API (https://www.balldontlie.io/). This was even simpler but worked extremely well (with a couple of errors that I will discuss). Once I decided what I could do and how to do it I had a successful project that I am proud of. Below I will outline features and give a short guide.
 
 Features/Guide
