@@ -1,68 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This is currently being hosted via [Firebase](https://basketball-stats-6b210.web.app). Basketball player data obtained from the [balldontlie API](https://www.balldontlie.io/)
+Project Guide
 
-## Available Scripts
+This project was extremely satisfying to imagine and build and uses HTML, CSS, Bootstrap, React, and an API. Though I was not able to create EXACTLY what I had in mind at the beginning, I was still able to create something I was proud of. Originally I wanted to create a sports app similar to ESPN or theScore, but I quickly realized that this was going to be almost impossible given the time that I had. I changed the scope to just giving simple stats for games (score, score by quarter, time remaining, etc.), and started building this tool. I quickly realized that the API I had chosen was not going to work and had to change scope again. At this time I found the Ball Don't Lie API (https://www.balldontlie.io/). This was even simpler but worked extremely well (with a couple of errors that I will discuss). Once I decided what I could do and how to do it I had a successful project that I am proud of. Below I will outline features and give a short guide.
 
-In the project directory, you can run:
+Features/Guide
 
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. First, the app loads with a static game that was being played while I built the app. In future iterations I would like this to load with games for the current day but because of the break in NBA play (right before playoffs) while developing, that made this slightly challenging.
+2. There are two main features that this site has:
+    a. The ability to enter a date into the form and see the games/scores for that day.
+    b. The ability to click on a game and have it become the focused game (featured at the top).
+3. This site does have a major error, but they are related to the API and not the code:
+    a. If the API is too busy a response will not contain the needed info, I have coded in an error to mention this. Because of this in future iterations I would strive to find another API with more info and more stablitiy/scalability. This would help to fix the issue and expand the functionality of the app with a more robust API.
+4. I am really proud of this, especially the CSS. I have really enjoyed styling this website and think it is really cool that I was able to build something that does this!
